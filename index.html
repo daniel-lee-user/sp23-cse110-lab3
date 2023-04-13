@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<main>
+  <head>
+    <title>Meeting Minutes</title>
+    <meta charset="UTF-8">
+    <meta name="description" content="Meeting Minutes Document for Sample Team">
+    <meta name="author" content="Daniel Lee">
+    <link rel="icon" type="image/x-icon" href="images/favicon.ico"/>
+  </head>
+  <body>
+    <header>
+        <h1>Meeting Minutes #2 for Sample Team</h1>
+        <h2>Brainstorming</h2>
+        <h3> 4/12/2023 </h3>
+    </header>
+    <hr>
+    <p>These are some <span> cool </span> navigation links</p>
+    <nav>
+        <a href="#Attendance">Attendance</a>
+        <a href="#Agenda">Agenda</a>
+        <a href="#Unfinished">Unfinished Things</a>
+        <a href="#New">New Business</a>
+        <a href="#Comments">Comments/Questions</a>
+        <a href="#Pictures">Pictures</a>
+        <a href="#Video">Video/Audio of Meeting</a>
+    </nav>
+    <hr>
+    <section>
+    <div class="Attendance">
+        <h4 id = "Attendance">Attendance list:</h4>
+        <ul>
+            <li>Daniel Lee</li>
+            <li>Member2</li>
+            <li>Member3</li>
+            <li>Member4</li>
+            <li>Member5</li>
+            <li>Member6</li>
+            <li>Member7</li>
+            <li>Member8</li>
+        </ul>
+    </div>
+    </section>
+    <hr>
+    <section>
+    <div class="Agenda">
+        <h4 id = "Agenda">Agenda:</h4>
+        <ol>
+            <li>Most important thing</li>
+            <li>Second most important thing</li>
+            <li>Third most important thing</li>
+            <li>Fourth most important thing</li>
+        </ol>
+    </div>
+    </section>
+    <hr>
+    <section>
+    <div class="Unfinished">
+        <h4 id = "Unfinished">Unfinished Things:</h4>
+        <p>We have lots of unfinished things to talk about this meeting. One of them is:<br>
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+    </div>
+    </section>
+    <hr>
+    <section>
+    <div class="New">
+        <h4 id = "New">New Business:</h4>
+        <p>There are a lot of new things to discuss</p>
+        <p>One of them being the <strong>very important </strong>thing</p>
+        <p>Another one is the strong text versus the <b> bold text</b></p>
+    </div>
+    </section>
+    <hr>
+    <section>
+        <div class="Comments">
+            <h4 id = "Comments">Comments/Questions:</h4>
+            <p>There were lots of comments today</p>
+            <p>Some people like to <i>italicize text</i></p>
+            <p>Others like to <em>italicize important text</em></p>
+            <details>
+                <summary>A very important comment</summary>
+                <p>I really like this team - from team member 2</p>
+            </details>
+        </div>
+    </section>
+    <hr>
+    <section>
+        <div class="Pictures">
+            <h4 id = "Pictures">Pictures:</h4>
+            <p>There were lots of pictures today as well.</p>
+            <img src="images/whiteboardmath.jpg" alt="Whiteboard" width="300" height="200"><br>
+            <img src="images/harold.jpg" alt="Harold" width="300" height="200"><br>
+            <img src="images/harold_photo.jpg" alt="Harold2" width="300" height="200">
+
+        </div>
+    </section>
+    <hr>
+    <section>
+        <div class="Video">
+            <h4 id = "Video">Video/Audio of Meeting:</h4>
+            <p>Here is a video of the meeting today:</p>
+            <video width="320" height="240" controls>
+                <source src="video.mp4" type="video/mp4">
+              Your browser does not support the video tag.
+            </video>
+            <p>Here is the audio of the meeting today:</p>
+            <audio controls>
+                <source src="audio.mp3" type="audio/mpeg">
+              Your browser does not support the audio element.
+            </audio>
+        </div>
+    </section>
+    <hr>
+    <h3>Form:</h3>
+    <form>
+        <fieldset>
+            <legend>Personal:</legend>
+            <label for="lname">Last Name:</label>
+            <input type="text" id="lname" name="lname">
+            <br><br>
+            <label for="speed">Are you faster than 200 mph:</label>
+            <input type="checkbox" id="speed" name="speed">
+            <br><br>
+            <p>Please select your weight:</p>
+            <input type="radio" id="weight1" name="weight" value="20">
+            <label for="weight1">20 - 100 lbs</label><br>
+            <input type="radio" id="weight2" name="weight" value="101">
+            <label for="weight2">101 - 180 lbs</label><br>  
+            <input type="radio" id="weight3" name="weight" value="181">
+            <label for="weight3">181+ lbs</label>
+            <br><br>
+            <label for="birthday">Birthday:</label>
+            <input type="date" id="birthday" name="birthday">
+            <br><br>
+            <p><label for="animal">What's your favorite animal and why?:</label></p>
+            <textarea id="animal" name="animal" rows="4" cols="50">Input your favorite animal and why it is your favorite.</textarea>
+            <br><br>
+            <label for="foosd">Choose your favorite food from the list:</label>
+            <input list="foods" name="favfood" id="favfood">
+            <datalist id="foods">
+                <option value="Chicken">
+                <option value="Burger">
+                <option value="Ramen">
+                <option value="Taco">
+                <option value="Pizza">
+            </datalist>
+            <br><br>
+            <label for="phones">Choose a phone brand:</label>
+            <select name="phones" id="phones">
+                <option value="Apple">Apple</option>
+                <option value="Samsung">Samsung</option>
+                <option value="Motorola">Motorola</option>
+                <option value="Google">Google</option>
+            </select>
+            <br><br>
+            <button type="button">Here is a button</button>
+        </fieldset>
+    </form>
+    
+    <footer>
+        <p>Team Leader: Daniel Lee</p>
+        <p></p>
+    </footer>
+  </body>
+</main>
+</html>
