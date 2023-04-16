@@ -1,0 +1,208 @@
+
+header { /* header */
+    font-family: 'Comic Neue', cursive;
+    color: green;
+}
+
+
+body {
+     /* setting background color */
+    background-color: rgb(173, 216, 230);
+}
+
+ul { /* for unordered lists */
+    margin-top: 0.5cm;
+    margin-bottom: 1px;
+    margin-left: 5pt;
+    margin-right: 5pt;
+    padding-top: 0.5cm;
+    padding-bottom: 0.1vh;
+    padding-left: 0.1vw;
+    padding-right: 0.1vw;
+    display: flex;
+    flex-wrap: nowrap;
+    justify-content: center;
+    flex-direction: row-reverse;
+    list-style: none;
+}
+
+ol { /* for ordered lists */
+    margin:auto;
+    display: table;
+    list-style-type: upper-roman;
+}
+
+nav { /*for navigation */
+    margin: 1px 1px 1px 1px;
+    padding: 1px 1px 1px 22.5vw;
+    font-family: 'Comic Neue', cursive;
+}
+
+#Pictures { /* picture section */
+    font-family: 'Comic Neue', cursive;
+    text-align:"center";
+    border-radius: 30px;
+    color: #f0f !important;
+    border-width:5px;
+    border-color: red yellow green hsla(60, 90%, 50%, .8);
+    border-style: dotted;
+    margin: 1px 1px 1px 1px;
+    padding: 1px 1px 1px 1px;
+    position: relative;
+    display:inline;
+}
+#Video { /* video section */
+    text-align:"center";
+    font-family: 'Comic Neue', cursive;
+    border-radius: 2%;
+    border-width:5px;
+    color: #f0f !important;
+    border-color: red yellow green hsla(60, 90%, 50%, .8);
+    border-style: dotted;
+    margin: 1px 1px 1px 1px;
+    padding: 1px 1px 1px 1px;
+    position: relative;
+    display:inline-block;
+}
+
+#Attendance { /* Attendance section */
+    text-align:"center";
+    font-family: 'Comic Neue', cursive;
+    border-radius: 2%;
+    border-width:5px;
+    color: #f0f !important;
+    border-color: red yellow green hsla(60, 90%, 50%, .8);
+    border-style: dotted;
+    margin: 1px 1px 1px 1px;
+    padding: 1px 1px 1px 1px;
+    position: sticky;
+    display:inline-block;
+}
+
+
+#Agenda { /* Agenda section */
+    text-align:"center";
+    font-family: 'Comic Neue', cursive;
+    border-radius: 2%;
+    border-width:5px;
+    color: #f0f !important;
+    border-color: red yellow green hsla(60, 90%, 50%, .8);
+    border-style: dotted;
+    margin: 1px 1px 1px 1px;
+    padding: 1px 1px 1px 1px;
+    position: static;
+    display:inline-block;
+}
+
+
+#Comments { /* comment section */
+    text-align:"center";
+    font-family: 'Comic Neue', cursive;
+    border-radius: 2%;
+    border-width:5px;
+    color: #f0f !important;
+    border-color: red yellow green hsla(60, 90%, 50%, .8);
+    border-style: dotted;
+    margin: 1px 1px 1px 1px;
+    padding: 1px 1px 1px 1px;
+    position:relative;
+    display:inline-block;
+}
+
+#New { /* comment section */
+    text-align:"center";
+    border-radius: 2%;
+    font-family: 'Comic Neue', cursive;
+    border-width:5px;
+    color: #f0f !important;
+    border-color: red yellow green hsla(60, 90%, 50%, .8);
+    border-style: dotted;
+    margin: 1px 1px 1px 1px;
+    padding: 1px 1px 1px 1px;
+    position:static;
+    display:inline-block;
+}
+
+#hide {
+    display:none;
+}
+
+#blocky {
+    text-align:"center";
+    border-radius: 2%;
+    border-width:5px;
+    color: darkblue !important;
+    border-color: red yellow green hsla(60, 90%, 50%, .8);
+    border-style: solid;
+    margin: 1px 1px 1px 1px;
+    padding: 1px 1px 1px 1px;
+    display:block;
+}
+
+#sizing {
+    height: 10px;
+    max-width: 500px;
+    min-width: 25px;
+}
+
+#comment1 {
+    text-align: center;
+    height: 100px;
+    width: 500px;
+    border-color: blue;
+    border-style: solid;
+}
+
+#comment2 {
+    text-align: center;
+    height: 100px;
+    width: 500px;
+    border-color: green;
+    border-style: solid;
+}
+
+#comment2:hover {
+    background-color: yellow;
+}
+
+#comment1:hover {
+    background-color: yellow;
+}
+
+summary:active {
+    background-color: yellow;
+    display:inline;
+}
+
+#grid {
+    text-align: center;
+    text-decoration: underline dashed;
+    display:grid;
+    grid-template-columns: 50px 50px 50px;
+    grid-template-rows: auto; 
+    column-gap: 10px;
+    row-gap: 1em;
+}
+
+/*Default: Show the large display text and hide small display text*/
+
+#Large {
+    color:red;
+    display:inline;
+}
+
+#Small {
+    display:none;
+}
+
+@media screen and (max-width: 1250px) { 
+    /*Hide the large display text and show small display text*/
+    #Large {
+        display:none;
+    }
+    
+    #Small {
+        color:blue;
+        display:inline;
+    }
+}

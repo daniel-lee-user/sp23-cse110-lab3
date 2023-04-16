@@ -1,10 +1,20 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Comic+Neue&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="cssstyle.css">
     <title>Meeting Minutes</title>
     <meta name="description" content="Meeting Minutes Document for Sample Team">
     <meta name="author" content="Daniel Lee">
     <link rel="icon" type="image/x-icon" href="images/favicon.ico">
+    <style>
+        li {
+            border: 2px solid #3B7877;
+            padding: .5em;
+        }
+    </style>
   </head>
   <body>
     <header>
@@ -30,7 +40,7 @@
         <h4 id = "Attendance">Attendance list:</h4>
         <ul>
             <li>Daniel Lee</li>
-            <li>Member2</li>
+            <li style="text-decoration: yellow wavy underline;">Member2</li>
             <li>Member3</li>
             <li>Member4</li>
             <li>Member5</li>
@@ -50,6 +60,7 @@
             <li>Third most important thing</li>
             <li>Fourth most important thing</li>
         </ol>
+        <p id="hide">Hide this</p>
     </div>
     </section>
     <hr>
@@ -58,6 +69,23 @@
         <h4 id = "Unfinished">Unfinished Things:</h4>
         <p>We have lots of unfinished things to talk about this meeting. One of them is:<br>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</p>
+
+        <p id="blocky">This is a very long blocky part, next is a grid</p>
+
+        <ul id="grid">
+            <li>1</li>
+            <li>2</li>
+            <li>4</li>
+            <li>8</li>
+            <li>16</li>
+            <li>32</li>
+            <li>64</li>
+            <li>128</li>
+            <li>256</li>
+            <li>512</li>
+            <li>1024</li>
+            <li>2048</li>
+        </ul>
     </div>
     </section>
     <hr>
@@ -67,6 +95,10 @@
         <p>There are a lot of new things to discuss</p>
         <p>One of them being the <strong>very important </strong>thing</p>
         <p>Another one is the strong text versus the <b> bold text</b></p>
+        <br>
+        <p id="Large">You are using a larger display!</p>
+        <br>
+        <p id="Small">You are using a smaller display!</p>
     </div>
     </section>
     <hr>
@@ -74,11 +106,11 @@
         <div class="Comments">
             <h4 id = "Comments">Comments/Questions:</h4>
             <p>There were lots of comments today</p>
-            <p>Some people like to <i>italicize text</i></p>
-            <p>Others like to <em>italicize important text</em></p>
+            <p id="comment1">Some people like to <i>italicize text</i></p>
+            <p id="comment2">Others like to <em>italicize important text</em></p>
             <details>
                 <summary>A very important comment</summary>
-                <p>I really like this team - from team member 2</p>
+                <p id="sizing">I really like this team - from team member 2</p>
             </details>
         </div>
     </section>
