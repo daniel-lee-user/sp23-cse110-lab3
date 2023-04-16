@@ -24,23 +24,23 @@
     </header>
     <hr>
     <main>
-    <p>These are some <span> cool </span> navigation links</p>
+    <p>These are some <span>cool</span> navigation links</p>
     <nav>
-        <a href="#Attendance">Attendance</a>
-        <a href="#Agenda">Agenda</a>
-        <a href="#Unfinished">Unfinished Things</a>
-        <a href="#New">New Business</a>
-        <a href="#Comments">Comments/Questions</a>
-        <a href="#Pictures">Pictures</a>
-        <a href="#Video">Video/Audio of Meeting</a>
+        <a href="#Attendance" target="links">Attendance</a>
+        <a href="#Agenda" target="links">Agenda</a>
+        <a href="#Unfinished" target="links">Unfinished Things</a>
+        <a href="#New" target="links">New Business</a>
+        <a href="#Comments" target="links">Comments/Questions</a>
+        <a href="#Pictures" target="links">Pictures</a>
+        <a href="#Video" target="links">Video/Audio of Meeting</a>
     </nav>
     <hr>
     <section>
     <div class="Attendance">
         <h4 id = "Attendance">Attendance list:</h4>
         <ul>
-            <li>Daniel Lee</li>
-            <li style="text-decoration: yellow wavy underline;">Member2</li>
+            <li style="text-decoration: yellow wavy underline;">Daniel Lee</li>
+            <li>Member2</li>
             <li>Member3</li>
             <li>Member4</li>
             <li>Member5</li>
@@ -108,7 +108,7 @@
             <p>There were lots of comments today</p>
             <p id="comment1">Some people like to <i>italicize text</i></p>
             <p id="comment2">Others like to <em>italicize important text</em></p>
-            <details>
+            <details class="detailcomment">
                 <summary>A very important comment</summary>
                 <p id="sizing">I really like this team - from team member 2</p>
             </details>
@@ -128,7 +128,7 @@
     <hr>
     <section>
         <div class="Video">
-            <h4 id = "Video">Video/Audio of Meeting:</h4>
+            <h4 id = "Video">ideo/Audio of Meeting:</h4>
             <p>Here is a video of the meeting today:</p>
             <video width="320" height="240" controls>
                 <source src="video.mp4" type="video/mp4">
@@ -139,6 +139,9 @@
                 <source src="audio.mp3" type="audio/mpeg">
               Your browser does not support the audio element.
             </audio>
+
+            <p>Some would say that this audio is just cut from the video itself.</p>
+            <span>very cool not related thing</span>
         </div>
     </section>
     <hr>
