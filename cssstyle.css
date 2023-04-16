@@ -1,6 +1,5 @@
 
 header { /* header */
-    font-family: 'Comic Neue', cursive;
     color: green;
 }
 
@@ -27,19 +26,17 @@ ul { /* for unordered lists */
 }
 
 ol { /* for ordered lists */
-    margin:auto;
     display: table;
+    margin:auto;
     list-style-type: upper-roman;
 }
 
 nav { /*for navigation */
     margin: 1px 1px 1px 1px;
     padding: 1px 1px 1px 22.5vw;
-    font-family: 'Comic Neue', cursive;
 }
 
 #Pictures { /* picture section */
-    font-family: 'Comic Neue', cursive;
     text-align:"center";
     border-radius: 30px;
     color: #f0f !important;
@@ -53,7 +50,6 @@ nav { /*for navigation */
 }
 #Video { /* video section */
     text-align:"center";
-    font-family: 'Comic Neue', cursive;
     border-radius: 2%;
     border-width:5px;
     color: #f0f !important;
@@ -67,9 +63,8 @@ nav { /*for navigation */
 
 #Attendance { /* Attendance section */
     text-align:"center";
-    font-family: 'Comic Neue', cursive;
     border-radius: 2%;
-    border-width:5px;
+    border-width: 5px;
     color: #f0f !important;
     border-color: red yellow green hsla(60, 90%, 50%, .8);
     border-style: dotted;
@@ -82,9 +77,8 @@ nav { /*for navigation */
 
 #Agenda { /* Agenda section */
     text-align:"center";
-    font-family: 'Comic Neue', cursive;
     border-radius: 2%;
-    border-width:5px;
+    border-width: 5px;
     color: #f0f !important;
     border-color: red yellow green hsla(60, 90%, 50%, .8);
     border-style: dotted;
@@ -97,9 +91,8 @@ nav { /*for navigation */
 
 #Comments { /* comment section */
     text-align:"center";
-    font-family: 'Comic Neue', cursive;
     border-radius: 2%;
-    border-width:5px;
+    border-width: 5px;
     color: #f0f !important;
     border-color: red yellow green hsla(60, 90%, 50%, .8);
     border-style: dotted;
@@ -112,8 +105,7 @@ nav { /*for navigation */
 #New { /* comment section */
     text-align:"center";
     border-radius: 2%;
-    font-family: 'Comic Neue', cursive;
-    border-width:5px;
+    border-width: 5px;
     color: #f0f !important;
     border-color: red yellow green hsla(60, 90%, 50%, .8);
     border-style: dotted;
@@ -130,7 +122,7 @@ nav { /*for navigation */
 #blocky {
     text-align:"center";
     border-radius: 2%;
-    border-width:5px;
+    border-width: 5px;
     color: darkblue !important;
     border-color: red yellow green hsla(60, 90%, 50%, .8);
     border-style: solid;
@@ -171,13 +163,13 @@ nav { /*for navigation */
 
 summary:active {
     background-color: yellow;
-    display:inline;
+    display: inline;
 }
 
 #grid {
     text-align: center;
     text-decoration: underline dashed;
-    display:grid;
+    display: grid;
     grid-template-columns: 50px 50px 50px;
     grid-template-rows: auto; 
     column-gap: 10px;
@@ -187,8 +179,8 @@ summary:active {
 /*Default: Show the large display text and hide small display text*/
 
 #Large {
-    color:red;
-    display:inline;
+    color: red;
+    display: inline;
 }
 
 #Small {
@@ -205,4 +197,46 @@ summary:active {
         color:blue;
         display:inline;
     }
+}
+
+.Attendance {
+    color: orangered
+}
+
+* {
+    font-family: 'Comic Neue', cursive;
+}
+
+a[target="links"] {
+    background-color: lightgreen;
+}
+
+a:hover {
+    text-shadow: 2px 4px 4px rgba(46,91,173,0.6);
+}
+
+h1, h2, h3 {
+    text-shadow: 2px 4px 4px rgba(46,91,173,0.6);
+}
+
+ol li {
+    margin: 1em;
+}
+
+p > span {
+    background-color: yellow;
+}
+
+video ~ span {
+    display: none;
+}
+
+audio + p {
+    letter-spacing: 5px;
+}
+
+details.detailcomment{
+    border-color: red;
+    border-style: double;
+    display: inline;
 }
